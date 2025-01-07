@@ -12,8 +12,8 @@
   - name : Start Docker Service
     command : sudo systemctl start docker
 
-    - name: Deploy Docker Container
-    command: docker run -itd -p 8084:8091 madhvika/banking-madhvika:1
+  - name : Deploy Docker Container
+    command : docker run -itd -p 8084:8091 madhvika/banking-madhvika:1
   
 
 
